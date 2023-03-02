@@ -1,3 +1,161 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.CenterItems {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.CenterItems p {
+  margin-left: 5px;
+}
+
+.Nav-items li:hover {
+  cursor: pointer;
+  background: #000;
+  color: aqua;
+}
+
+.Navigation {
+  @apply text-white bg-[#333333] h-[60px];
+}
+
+.anticon svg {
+  color: aliceblue;
+}
+
+.header ul {
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  width: 100%;
+}
+
+.header ul li {
+  padding: 0 20px 0 20px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.header li:hover {
+  background-color: #33313143;
+  cursor: pointer;
+}
+
+.header li a:hover {
+  color: aliceblue;
+}
+
+.ant-dropdown-trigger {
+  height: 64px;
+}
+
+.ant-dropdown-open {
+  background-color: #000;
+}
+
+.Dropdown:hover {
+  background-color: #000;
+  height: 64px;
+}
+
+.ant-dropdown-menu-title-content {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.ant-dropdown-menu-submenu {
+  line-height: 100%;
+}
+
+.ant-dropdown-menu-submenu-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 100%;
+}
+
+.ant-dropdown-menu ul {
+  margin-top: -10px;
+}
+
+.ant-dropdown-menu-submenu-arrow-icon svg {
+  color: #000;
+}
+
+.ant-menu {
+  background-color: #f2f2f2f2;
+}
+
+.footerSub {
+  display: flex;
+  color: aliceblue;
+  font-size: 15px;
+  padding-left: 150px;
+}
+
+.boldPcontact {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.footerUl a {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.footerButton {
+  color: aliceblue;
+  border: none;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.footerButton:hover {
+  margin-left: 10px;
+  background-color: black;
+}
+
+.footerButton p {
+  padding-left: 5px;
+}
+
+.infortCompanyLi li {
+  margin-bottom: 15px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.infortCompanyLi li a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.footerSocial {
+  display: flex;
+}
+
+.footerSocial li {
+  margin-right: 10px;
+  padding: 4px;
+}
+
+.footerSocial li Button {
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+
+.footerSocial li Button:hover {
+  margin-top: -15px;
+  border-radius: 15px;
+}
