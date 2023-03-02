@@ -1,49 +1,88 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/effect-cards";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import "../css/style.css";
-import "/src/styles/tailwind.css";
+import "./css/style.css";
+
 // import required modules
-import { EffectCards } from "swiper";
-import styled from "styled-components";
+import { Autoplay, Pagination, Navigation } from "swiper";
+import { Col, Row } from "antd";
 
-const SwiperSlide = styled.div`
-  width: 100%;
-  display: "block";
-  height: "160px";
-`;
-
-export default function App() {
+export default function Swwipers() {
   return (
-    <Swiper
-      effect={"cards"}
-      grabCursor={true}
-      modules={[EffectCards]}
-      className="mySwiper"
-    >
-      <SwiperSlide
-      // style={{ width: "100%", display: "block", height: "160px" }}
+    <>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper h-[450px]"
       >
-        <img src="src/assets/imgs/banners/aoquan1.jpg" alt="" />
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <img src="src/assets/imgs/banners/aoquan2.jpg" alt="" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="src/assets/imgs/banners/aoquan3.jpg" alt="" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="src/assets/imgs/banners/aoquan4.jpg" alt="" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="src/assets/imgs/banners/aoquan5.jpg" alt="" />
-      </SwiperSlide>
-    </Swiper>
+        <SwiperSlide>
+          <img src="src/assets/imgs/banners/anhGiay.jpg" alt="" />
+          <Row className="SwiperSlide__Item">
+            <Col span={8} style={{ width: "100%", height: "auto" }}>
+              <strong style={{ fontSize: "32px " }}>NEW </strong> <br />
+              <strong style={{ fontSize: "46px", letterSpacing: "5px" }}>
+                STYLE 2023
+              </strong>
+              <p style={{ opacity: "0.5", fontSize: "16px" }}>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+            </Col>
+          </Row>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="src/assets/imgs/banners/anhNhomNguoi.jpg"
+            alt=""
+            className="duy"
+          />
+          <Row className="SwiperSlide__Item">
+            <Col span={8} style={{ width: "100%", height: "auto" }}>
+              <strong style={{ fontSize: "32px " }}>NEW </strong> <br />
+              <strong style={{ fontSize: "46px", letterSpacing: "5px" }}>
+                STYLE 2023
+              </strong>
+              <p style={{ opacity: "0.5", fontSize: "16px" }}>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+            </Col>
+          </Row>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="src/assets/imgs/banners/anhCoGai.jpg" alt="" />
+          <Row className="SwiperSlide__Item">
+            <Col span={8} style={{ width: "100%", height: "auto" }}>
+              <strong style={{ fontSize: "32px " }}>NEW </strong> <br />
+              <strong style={{ fontSize: "46px", letterSpacing: "5px" }}>
+                STYLE 2023
+              </strong>
+              <p style={{ opacity: "0.5", fontSize: "16px" }}>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+            </Col>
+          </Row>
+        </SwiperSlide>
+      </Swiper>
+    </>
   );
 }

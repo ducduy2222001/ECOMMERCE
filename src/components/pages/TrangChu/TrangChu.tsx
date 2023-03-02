@@ -5,13 +5,13 @@ import MasterLayout from "../../../layouts/MasterLayOut";
 import { Content } from "antd/lib/layout/layout";
 import Swiper from "swiper";
 import Swipers from "./components/Swipers";
+import SelectNamNu from "./components/selectNamNu";
 
 const TrangChu: React.FC = () => (
   <MasterLayout>
     <div style={{ display: "flex" }}>
       <Content
         style={{
-          padding: "0 24px",
           minHeight: 280,
           backgroundColor: "#ffff",
           width: "100%",
@@ -19,9 +19,11 @@ const TrangChu: React.FC = () => (
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          flexWrap: "wrap",
         }}
       >
         <Swipers />
+        <SelectNamNu />
       </Content>
     </div>
     <div style={{ height: "100px" }}></div>

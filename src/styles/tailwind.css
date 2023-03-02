@@ -159,3 +159,30 @@
   margin-top: -15px;
   border-radius: 15px;
 }
+
+.SwiperSlide__Item {
+  position: absolute;
+  border: 4px rgba(255, 255, 255, 0.5) solid;
+  height: 280px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  border-radius: 100%;
+  border: 2px #ffff solid;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(149, 155, 159);
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px;
+  color: aliceblue;
+}
