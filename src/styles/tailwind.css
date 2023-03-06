@@ -186,3 +186,129 @@
   font-size: 20px;
   color: aliceblue;
 }
+
+.ant-dropdown-menu-item,
+.ant-dropdown-menu-submenu-title {
+  line-height: 5px;
+}
+
+.header__listProduct {
+  background-color: #ffff;
+  border-top: 2px #aaaaaa solid;
+  height: 100%;
+}
+
+.header__Selectitems_li ul {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  color: #5f5c5c;
+}
+
+.header__Selectitems_li ul li {
+  padding: 0 13px 0 13px;
+  margin: 0;
+}
+
+.header__Selectitems_li ul li:first-child {
+  border-right: 1px #aaaa solid;
+}
+
+.header__Selectitems_li ul li:last-child {
+  border-left: 1px #aaaa solid;
+}
+
+.header__Selectitems_li ul li:hover {
+  cursor: pointer;
+  background-color: #9e9d9d;
+  color: black !important;
+  opacity: 1;
+}
+
+.content__cartsubcontent {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.content__cartTitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+.content__cartPrice {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+.Start__Icon {
+  font-size: 20px;
+  display: contents;
+}
+
+.heart_sub {
+  position: absolute;
+  padding: 10px;
+}
+.heart_sub .anticon svg {
+  color: white;
+  width: 25px;
+  height: 25px;
+}
+
+.heart_sub .anticon svg:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.cart_sub {
+  border: 0px #000 solid;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.cart_sub p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #f53131;
+}
+
+.cart_sub .anticon svg {
+  color: #2d2c2c;
+  font-size: 35px;
+}
+
+.section {
+  background-color: rgb(127 123 123);
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.section__ColSub {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section__ColSub {
+  color: white;
+}
+
+.section__Row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 17px;
+}

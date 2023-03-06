@@ -11,13 +11,12 @@ import {
 } from "@ant-design/icons";
 import { Button, Col, Row } from "antd";
 import { Layout } from "antd";
-import React, { Children } from "react";
+import React from "react";
 import KeyboardDoubleArrowRightRoundedIcon from "@mui/icons-material/KeyboardDoubleArrowRightRounded";
 import LocationOnSharpIcon from "@mui/icons-material/LocationOnSharp";
 import MailSharpIcon from "@mui/icons-material/MailSharp";
 import FacebookSharpIcon from "@mui/icons-material/FacebookSharp";
 import Menus from "./components/Menu";
-// import Menus from "./components/Menu";
 
 const { Header, Content, Footer } = Layout;
 

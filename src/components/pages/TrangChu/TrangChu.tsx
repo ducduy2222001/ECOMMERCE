@@ -1,11 +1,12 @@
-import { Col, Layout, Menu, Row } from "antd";
-import Sider from "antd/lib/layout/Sider";
 import React from "react";
 import MasterLayout from "../../../layouts/MasterLayOut";
 import { Content } from "antd/lib/layout/layout";
-import Swiper from "swiper";
-import Swipers from "./components/Swipers";
+import Swipers from "./components/Swipers/Swipers";
 import SelectNamNu from "./components/selectNamNu";
+import Branch from "./components/Branch/Branch";
+import Allproduct from "./components/DanhMucSanPham/component/Allproduct";
+import Instagram from "./components/Instagram";
+import Section from "./components/Section";
 
 const TrangChu: React.FC = () => (
   <MasterLayout>
@@ -15,7 +16,6 @@ const TrangChu: React.FC = () => (
           minHeight: 280,
           backgroundColor: "#ffff",
           width: "100%",
-          height: "100%",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
@@ -24,9 +24,12 @@ const TrangChu: React.FC = () => (
       >
         <Swipers />
         <SelectNamNu />
+        <Branch />
+        <Allproduct />
+        <Instagram />
+        <Section />
       </Content>
     </div>
-    <div style={{ height: "100px" }}></div>
   </MasterLayout>
 );
 

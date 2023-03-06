@@ -28,7 +28,7 @@ export default function Swwipers() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper h-[450px]"
+        className="mySwiper h-[580px]"
       >
         <SwiperSlide>
           <img src="src/assets/imgs/banners/anhGiay.jpg" alt="" />

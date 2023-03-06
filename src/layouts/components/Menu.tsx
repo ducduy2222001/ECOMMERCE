@@ -2,10 +2,9 @@ import React from "react";
 import { CaretDownOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 import menuDanhMuc from "@mockdata/Danhmuc";
-const items2 = menuDanhMuc;
 import ViewListIcon from "@mui/icons-material/ViewList";
 
-const items = items2;
+const items = menuDanhMuc;
 
 const Menus: React.FC = () => (
   <Dropdown menu={{ items }} className="Dropdown">

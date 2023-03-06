@@ -8,14 +8,6 @@ const danhmuc = ["THỜI TRANG NAM", "THỜI TRANG NỮ", "PHỤ KIỆN", "TÚI 
 let menuDanhMuc: {
   key: number;
   label: string;
-  // children: [
-  //     {label: 'd', key:'d'}
-  // ].map((e, j)=> {
-  //     if(e.key ==='d'){
-  //         return {e.key,
-  //         label:}
-  //     }
-  // })
   children: { key: string; label: string }[];
 }[] = [];
 
