@@ -17,6 +17,7 @@ import LocationOnSharpIcon from "@mui/icons-material/LocationOnSharp";
 import MailSharpIcon from "@mui/icons-material/MailSharp";
 import FacebookSharpIcon from "@mui/icons-material/FacebookSharp";
 import Menus from "./components/Menu";
+import { Link } from "react-router-dom";
 
 const { Header, Content, Footer } = Layout;
 
@@ -128,21 +129,22 @@ const MasterLayout = ({ children }: IMasterLayoutProps) => (
             >
               <Menus />
             </li>
-            <li>
-              <a href="">TRANG CHỦ</a>
-            </li>
-            <li>
-              <a href="">GIỚI THIỆU</a>
-            </li>
-            <li>
-              <a href="">SẢN PHẨM</a>
-            </li>
-            <li>
-              <a href="">TIN TỨC</a>
-            </li>
-            <li>
-              <a href="">LIÊN HỆ</a>
-            </li>
+
+            <Link to="/">
+              <li>TRANG CHỦ </li>
+            </Link>
+            <Link to="/GioiThieu">
+              <li>GIỚI THIỆU</li>
+            </Link>
+            <Link to="/SanPham">
+              <li>SẢN PHẨM</li>
+            </Link>
+            <Link to="/TinTuc">
+              <li>TIN TỨC</li>
+            </Link>
+            <Link to="/LienHe">
+              <li>LIÊN HỆ</li>
+            </Link>
           </ul>
         </Col>
       </Row>

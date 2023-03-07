@@ -1,14 +1,15 @@
-import { Row, Col } from "antd";
+import { Row, Col, Pagination } from "antd";
 import React from "react";
+import { Autoplay, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import Swippers from "./SwippersOfNew/SwippersOfNew";
 
-function Instagram() {
+function News() {
   return (
     <div
       style={{
-        borderTop: "1px #aaa solid",
         borderBottom: "1px #aaa solid",
         width: "100%",
-        marginTop: "100px",
       }}
     >
       <Row>
@@ -23,7 +24,7 @@ function Instagram() {
               height: "64px",
             }}
           >
-            #INSTAGRAM
+            TIN TỨC MỚI NHẤT
           </p>
 
           <p
@@ -37,28 +38,15 @@ function Instagram() {
               height: "64px",
             }}
           >
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
           </p>
-
-          <p
-            style={{
-              display: "flex ",
-              justifyContent: "center",
-              alignItems: "center",
-              fontSize: "17px",
-              opacity: "0.7",
-              marginTop: "-18px",
-              height: "64px",
-            }}
-          >
-            Instagram has returned invalid data.
-          </p>
+        </Col>
+        <Col>
+          <Swippers />
         </Col>
       </Row>
     </div>
   );
 }
 
-export default Instagram;
+export default News;

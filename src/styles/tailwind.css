@@ -196,6 +196,7 @@
   background-color: #ffff;
   border-top: 2px #aaaaaa solid;
   height: 100%;
+  padding: 0;
 }
 
 .header__Selectitems_li ul {
@@ -209,7 +210,7 @@
 }
 
 .header__Selectitems_li ul li {
-  padding: 0 13px 0 13px;
+  padding: 0 25px 0 25px;
   margin: 0;
 }
 
@@ -232,20 +233,30 @@
   display: flex;
   flex-direction: column;
   padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fff;
 }
 
 .content__cartTitle {
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bold;
+  height: 35px;
 }
 .content__cartPrice {
   font-size: 20px;
   color: red;
+  height: 35px;
   font-weight: bold;
+}
+
+.cardItemAllProduct {
+  margin: 30px;
+  margin-top: 30px;
 }
 
 .Start__Icon {
   font-size: 20px;
+  height: 35px;
   display: contents;
 }
 
@@ -257,10 +268,16 @@
   color: white;
   width: 25px;
   height: 25px;
+  top: -10px;
 }
 
-.heart_sub .anticon svg:hover {
+.redIcon .anticon svg {
   color: red;
+  cursor: pointer;
+}
+
+.whiteIcon .anticon svg {
+  color: white;
   cursor: pointer;
 }
 
@@ -271,7 +288,8 @@
   justify-content: center;
   align-items: center;
   height: 40px;
-  margin-top: 10px;
+  margin-top: -10px;
+  cursor: pointer;
 }
 
 .cart_sub p {
@@ -311,4 +329,62 @@
   flex-direction: column;
   justify-content: center;
   margin-left: 17px;
+}
+
+.ItemsPropSub {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 40px;
+}
+
+.ItemPropsChil {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content__ItemPropsChil-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content__ItemPropsChil-dayPost {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #c0c0c0;
+}
+
+.content__ItemPropsChil-dayPost .anticon-calendar svg {
+  color: yellow;
+}
+
+.content__ItemPropsChil-main {
+  color: #23282d;
+  font-size: 16px;
+}
+
+.content__ItemPropsChil-btn {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+}
+
+.content__ItemPropsChil-btn::after {
+  content: "";
+  display: block;
+  width: calc(100% -2px);
+  height: 3px;
+  background: rgb(88, 147, 241);
+  margin-top: 2px;
+}
+
+.colSwiper__News {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

@@ -1,12 +1,13 @@
 import React from "react";
 import MasterLayout from "../../../layouts/MasterLayOut";
 import { Content } from "antd/lib/layout/layout";
-import Swipers from "./components/Swipers/Swipers";
+import Swipers from "./components/Swipers/SwipersMain";
 import SelectNamNu from "./components/selectNamNu";
 import Branch from "./components/Branch/Branch";
-import Allproduct from "./components/DanhMucSanPham/component/Allproduct";
 import Instagram from "./components/Instagram";
 import Section from "./components/Section";
+import ListSanPham from "./components/DanhMucSanPham/layout/ListSanPham";
+import News from "./components/News/News";
 
 const TrangChu: React.FC = () => (
   <MasterLayout>
@@ -25,8 +26,10 @@ const TrangChu: React.FC = () => (
         <Swipers />
         <SelectNamNu />
         <Branch />
-        <Allproduct />
+
+        <ListSanPham />
         <Instagram />
+        <News />
         <Section />
       </Content>
     </div>
