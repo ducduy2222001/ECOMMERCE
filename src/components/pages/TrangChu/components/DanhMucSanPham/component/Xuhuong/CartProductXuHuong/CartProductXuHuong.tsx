@@ -71,33 +71,33 @@ function CartProductXuHuong() {
       >
         <Col span={8} className="card cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/quanJean.jpg"
-            title="Túi xách Chanel"
-            price="200.000 vnđ"
+            image="src/assets/imgs/TrangChu/danhsachSp/quanJean.jpg"
+            title="Quần Jean Mỹ"
+            price="300.000 vnđ"
             evaluate={<StarFilled />}
           />
         </Col>
         <Col span={8} className="card cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/quanJean.jpg"
-            title="Túi xách Chanel"
-            price="200.000 vnđ"
+            image="src/assets/imgs/TrangChu/danhsachSp/quanJean.jpg"
+            title="Quần Jean Mỹ"
+            price="300.000 vnđ"
             evaluate={<StarFilled />}
           />
         </Col>
         <Col span={8} className="card cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/quanJean.jpg"
-            title="Túi xách Chanel"
-            price="200.000 vnđ"
+            image="src/assets/imgs/TrangChu/danhsachSp/quanJean.jpg"
+            title="Quần Jean Mỹ"
+            price="300.000 vnđ"
             evaluate={<StarFilled />}
           />
         </Col>
         <Col span={8} className="card cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/quanJean.jpg"
-            title="Túi xách Chanel"
-            price="200.000 vnđ"
+            image="src/assets/imgs/TrangChu/danhsachSp/quanJean.jpg"
+            title="Quần Jean Mỹ"
+            price="300.000 vnđ"
             evaluate={<StarFilled />}
           />
         </Col>
@@ -111,33 +111,33 @@ function CartProductXuHuong() {
       >
         <Col span={8} className="card cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/quanJean.jpg"
-            title="Túi xách Chanel"
-            price="200.000 vnđ"
+            image="src/assets/imgs/TrangChu/danhsachSp/quanJean.jpg"
+            title="Quần Jean Mỹ"
+            price="300.000 vnđ"
             evaluate={<StarFilled />}
           />
         </Col>
         <Col span={8} className="card cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/quanJean.jpg"
-            title="Túi xách Chanel"
-            price="200.000 vnđ"
+            image="src/assets/imgs/TrangChu/danhsachSp/quanJean.jpg"
+            title="Quần Jean Mỹ"
+            price="300.000 vnđ"
             evaluate={<StarFilled />}
           />
         </Col>
         <Col span={8} className="card cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/quanJean.jpg"
-            title="Túi xách Chanel"
-            price="200.000 vnđ"
+            image="src/assets/imgs/TrangChu/danhsachSp/quanJean.jpg"
+            title="Quần Jean Mỹ"
+            price="300.000 vnđ"
             evaluate={<StarFilled />}
           />
         </Col>
         <Col span={8} className="card cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/quanJean.jpg"
-            title="Túi xách Chanel"
-            price="200.000 vnđ"
+            image="src/assets/imgs/TrangChu/danhsachSp/quanJean.jpg"
+            title="Quần Jean Mỹ"
+            price="300.000 vnđ"
             evaluate={<StarFilled />}
           />
         </Col>

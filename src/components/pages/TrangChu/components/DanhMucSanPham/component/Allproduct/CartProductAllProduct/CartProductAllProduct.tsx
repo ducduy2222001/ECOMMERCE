@@ -65,7 +65,7 @@ function CartProductAllProduct() {
       <Row style={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Col span={8} className=" cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/product-05(1).png"
+            image="src/assets/imgs/TrangChu/danhsachSp/tuiXach.png"
             title="Túi xách Chanel"
             price="200.000 vnđ"
             evaluate={<StarFilled />}
@@ -73,7 +73,7 @@ function CartProductAllProduct() {
         </Col>
         <Col span={8} className=" cardItemAllProduct ">
           <CardProp
-            image="src/assets/imgs/banners/product-05(1).png"
+            image="src/assets/imgs/TrangChu/danhsachSp/tuiXach.png"
             title="Túi xách Chanel"
             price="200.000 vnđ"
             evaluate={<StarFilled />}
@@ -81,7 +81,7 @@ function CartProductAllProduct() {
         </Col>
         <Col span={8} className=" cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/product-05(1).png"
+            image="src/assets/imgs/TrangChu/danhsachSp/tuiXach.png"
             title="Túi xách Chanel"
             price="200.000 vnđ"
             evaluate={<StarFilled />}
@@ -89,7 +89,7 @@ function CartProductAllProduct() {
         </Col>
         <Col span={8} className=" cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/product-05(1).png"
+            image="src/assets/imgs/TrangChu/danhsachSp/tuiXach.png"
             title="Túi xách Chanel"
             price="200.000 vnđ"
             evaluate={<StarFilled />}
@@ -99,7 +99,7 @@ function CartProductAllProduct() {
       <Row style={{ display: "flex", width: "100%", justifyContent: "center" }}>
         <Col span={8} className=" cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/product-05(1).png"
+            image="src/assets/imgs/TrangChu/danhsachSp/tuiXach.png"
             title="Túi xách Chanel"
             price="200.000 vnđ"
             evaluate={<StarFilled />}
@@ -107,7 +107,7 @@ function CartProductAllProduct() {
         </Col>
         <Col span={8} className=" cardItemAllProduct ">
           <CardProp
-            image="src/assets/imgs/banners/product-05(1).png"
+            image="src/assets/imgs/TrangChu/danhsachSp/tuiXach.png"
             title="Túi xách Chanel"
             price="200.000 vnđ"
             evaluate={<StarFilled />}
@@ -115,7 +115,7 @@ function CartProductAllProduct() {
         </Col>
         <Col span={8} className=" cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/product-05(1).png"
+            image="src/assets/imgs/TrangChu/danhsachSp/tuiXach.png"
             title="Túi xách Chanel"
             price="200.000 vnđ"
             evaluate={<StarFilled />}
@@ -123,7 +123,7 @@ function CartProductAllProduct() {
         </Col>
         <Col span={8} className=" cardItemAllProduct">
           <CardProp
-            image="src/assets/imgs/banners/product-05(1).png"
+            image="src/assets/imgs/TrangChu/danhsachSp/tuiXach.png"
             title="Túi xách Chanel"
             price="200.000 vnđ"
             evaluate={<StarFilled />}

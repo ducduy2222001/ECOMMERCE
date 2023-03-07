@@ -166,7 +166,7 @@ export default function SelectNamNu() {
           >
             <Button icon={<PlusOutlined />}></Button>
           </Dropdown>
-          <img src="src/assets/imgs/banners/setNam.jpg" alt="" />
+          <img src="src/assets/imgs/TrangChu/banners/setNam.jpg" alt="" />
         </Col>
       </ColItems>
 
@@ -187,7 +187,7 @@ export default function SelectNamNu() {
           >
             <Button icon={<PlusOutlined />}></Button>
           </Dropdown>
-          <img src="src/assets/imgs/banners/setNu.jpg" alt="" />
+          <img src="src/assets/imgs/TrangChu/banners/setNu.jpg" alt="" />
         </Col>
       </ColItems>
     </Row>

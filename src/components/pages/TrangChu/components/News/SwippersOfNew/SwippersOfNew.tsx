@@ -60,7 +60,7 @@ export default function Swippers() {
         >
           <Col span={8} className="colSwiper__News">
             <ItemProps
-              image="src/assets/imgs/banners/anhNew.jpg"
+              image="src/assets/imgs/TrangChu/news/anhNew.jpg"
               title="Tiêu Đề"
               day="1/1/1111"
               content="Nội dung..."
@@ -69,35 +69,7 @@ export default function Swippers() {
           </Col>
           <Col span={8} className="colSwiper__News">
             <ItemProps
-              image="src/assets/imgs/banners/anhNew.jpg"
-              title="Tiêu Đề"
-              day="1/1/1111"
-              content="Nội dung..."
-              button="XEM THÊM"
-            />
-          </Col>
-        </Row>
-      </SwiperSlide>
-      <SwiperSlide>
-        <Row
-          style={{
-            width: "100%",
-            display: " flex",
-            justifyContent: "center",
-          }}
-        >
-          <Col span={8} className="colSwiper__News">
-            <ItemProps
-              image="src/assets/imgs/banners/anhNew.jpg"
-              title="Tiêu Đề"
-              day="1/1/1111"
-              content="Nội dung..."
-              button="XEM THÊM"
-            />
-          </Col>
-          <Col span={8} className="colSwiper__News">
-            <ItemProps
-              image="src/assets/imgs/banners/anhNew.jpg"
+              image="src/assets/imgs/TrangChu/news/anhNew.jpg"
               title="Tiêu Đề"
               day="1/1/1111"
               content="Nội dung..."
@@ -116,7 +88,7 @@ export default function Swippers() {
         >
           <Col span={8} className="colSwiper__News">
             <ItemProps
-              image="src/assets/imgs/banners/anhNew.jpg"
+              image="src/assets/imgs/TrangChu/news/anhNew.jpg"
               title="Tiêu Đề"
               day="1/1/1111"
               content="Nội dung..."
@@ -125,7 +97,35 @@ export default function Swippers() {
           </Col>
           <Col span={8} className="colSwiper__News">
             <ItemProps
-              image="src/assets/imgs/banners/anhNew.jpg"
+              image="src/assets/imgs/TrangChu/news/anhNew.jpg"
+              title="Tiêu Đề"
+              day="1/1/1111"
+              content="Nội dung..."
+              button="XEM THÊM"
+            />
+          </Col>
+        </Row>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Row
+          style={{
+            width: "100%",
+            display: " flex",
+            justifyContent: "center",
+          }}
+        >
+          <Col span={8} className="colSwiper__News">
+            <ItemProps
+              image="src/assets/imgs/TrangChu/news/anhNew.jpg"
+              title="Tiêu Đề"
+              day="1/1/1111"
+              content="Nội dung..."
+              button="XEM THÊM"
+            />
+          </Col>
+          <Col span={8} className="colSwiper__News">
+            <ItemProps
+              image="src/assets/imgs/TrangChu/news/anhNew.jpg"
               title="Tiêu Đề"
               day="1/1/1111"
               content="Nội dung..."

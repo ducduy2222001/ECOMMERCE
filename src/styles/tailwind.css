@@ -390,6 +390,59 @@
 }
 
 .page-header-wrapper {
-  height: 340px;
+  height: 270px;
   width: 100%;
+  background-color: #000;
+}
+.ItemDV,
+.member-prop,
+.ItemVison {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.ItemVison {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.ItemDV__title,
+.member-prop-name,
+.ItemVision__title {
+  font-size: 15px;
+  color: #6a6868;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.ItemDV__info,
+.member-prop-position,
+.ItemVision__content {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.ItemDV,
+.member-prop {
+  flex-direction: column;
+}
+
+.member-prop {
+  margin-bottom: 50px;
+}
+
+.iconDV svg {
+  color: #000;
+  width: 80px;
+  height: 80px;
+}
+
+.MuiSvgIcon-root .iconDVss {
+  color: #000;
+  width: 80px;
+  height: 80px;
 }
