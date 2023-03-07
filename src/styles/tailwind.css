@@ -388,3 +388,8 @@
   display: flex;
   justify-content: center;
 }
+
+.page-header-wrapper {
+  height: 340px;
+  width: 100%;
+}

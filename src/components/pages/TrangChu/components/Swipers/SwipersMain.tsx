@@ -47,11 +47,7 @@ export default function Swwipers() {
           </Row>
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src="src/assets/imgs/banners/anhNhomNguoi.jpg"
-            alt=""
-            className="duy"
-          />
+          <img src="src/assets/imgs/banners/anhNhomNguoi.jpg" alt="" />
           <Row className="SwiperSlide__Item">
             <Col span={8} style={{ width: "100%", height: "auto" }}>
               <strong style={{ fontSize: "32px " }}>NEW </strong> <br />

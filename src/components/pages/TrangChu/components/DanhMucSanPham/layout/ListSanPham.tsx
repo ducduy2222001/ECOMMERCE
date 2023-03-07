@@ -1,8 +1,8 @@
 import { Layout, Row, Col } from "antd";
-import { wrap } from "module";
 import React, { SetStateAction, useState } from "react";
 import Allproduct from "../component/Allproduct/Allproduct";
 import BanChayNhat from "../component/BanChayNhat/BanChayNhat";
+
 import Xuhuong from "../component/Xuhuong/Xuhuong";
 const { Header } = Layout;
 import "./style.css";
