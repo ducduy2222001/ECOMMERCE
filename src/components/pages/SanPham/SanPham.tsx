@@ -16,7 +16,7 @@ const SanPham: React.FC = () => (
           flexWrap: "wrap",
         }}
       >
-        cc
+        Sản phẩm
       </Content>
     </div>
   </MasterLayout>
